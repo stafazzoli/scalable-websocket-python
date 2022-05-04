@@ -1,0 +1,5 @@
+aioredis==2.0.1
+async-timeout==4.0.2
+python-rapidjson==1.6
+typing_extensions==4.1.1
+websockets==10.2
