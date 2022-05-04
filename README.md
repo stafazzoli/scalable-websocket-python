@@ -18,14 +18,12 @@ In this implementation of scalable websockets, we use Redis pub/sub pattern. We 
 
 As you can see, instead of sending messages to the webSocket client right away, we publish them on a channel and then handle them separately. By doing this, we’re sure that the message is published to every instance and then sent to users.
 
-
-
-### Dependency Installations
+## Dependency Installations
 To run the project, install the dependencies using the command below:
 ```bash
 pip install -r requirements.txt
 ```
 Also, create a `logs` folder in the project root where logs are saved.
 
-### Testing Websocket connections
+## Testing Websocket connections
 You can find a client sample code in `test` folder that you can use test how the opening and closing the connection is handled in the code.
